@@ -1,5 +1,5 @@
 # SPRMamba: Surgical Phase Recognition for Endoscopic Submucosal Dissection with Mamba
-This repository contains the software used in our Paper “SPRMamba: Surgical Phase Recognition for Endoscopic Submucosal Dissection with Mamba ”
+This repository contains the software used in our Paper “[SPRMamba: Surgical Phase Recognition for Endoscopic Submucosal Dissection with Mamba](https://arxiv.org/abs/2409.12108)”
 # Enviroment
 causal-conv1d == 1.4.0, mamba-ssm ==2.2.2, torch == 2.1.2+cu118, python == 3.10.18, cudatoolkit == 11.8.0, cudnn == 9.10.1.4
 # Data Preparation
