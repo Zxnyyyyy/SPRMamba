@@ -4,12 +4,12 @@ This repository contains the software used in our Paper “SPRMamba: Surgical Ph
 causal-conv1d == 1.4.0, mamba-ssm ==2.2.2, torch == 2.1.2+cu118, python == 3.10.18, cudatoolkit == 11.8.0, cudnn == 9.10.1.4
 # Data Preparation
 - We use the dataset ESD385 and [Cholec80](http://camma.u-strasbg.fr/datasets/). You can download ESD385 partly ([Part1](https://figshare.com/s/783242188a8a2721a58e), [Part2](https://figshare.com/articles/dataset/Renji_endoscopic_submucosal_dissection_video_data_set_for_colorectal_neoplastic_lesions/28737686?file=56338025), [Part3](https://figshare.com/articles/dataset/Renji_endoscopic_submucosal_dissection_video_data_set_for_early_gastric_cancer/28045295)).
-- Training and test data split
+- Training and test data split.
 <br />ESD385: run split.py to generate train.csv, val.csv, test.csv respectively.
 <br />Cholec80: first 40 videos for training and the rest 40 videos for testing, following the original paper [EndoNet](https://arxiv.org/abs/1602.03012).
 - Data Preprocessing
-  run preprocessing.py to convert the videos to frames.
-- rename it to "datasets" and put into the current directory
+  Run preprocessing.py to convert the videos to frames.
+- Rename it to "datasets" and put into the current directory.
 ```bash
 SPRMamba/
 ├── datasets
@@ -27,9 +27,9 @@ SPRMamba/
 └── ...
 ```
 # Train your own model
-- run train.py to train ResNet50.
-- run generate_LFB.py to generate spatial embeddings.
-- run main.py to train SPRMamba.
+- Run train.py to train ResNet50.
+- Run generate_LFB.py to generate spatial embeddings.
+- Run main.py to train SPRMamba.
 # Testing
 - Run main.py to eval SPRMamba.
 # Citation
