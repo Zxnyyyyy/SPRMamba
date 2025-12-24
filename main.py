@@ -1,7 +1,7 @@
 import torch
 import argparse
 from torch.utils.tensorboard import SummaryWriter
-import LTCMambaNet
+import SPRMambaNet
 from batch_gen import BatchGenerator
 from trainer import Trainer
 import random
@@ -59,7 +59,7 @@ actions_dict = dict()
 for a in actions:
     actions_dict[a.split()[1]] = int(a.split()[0])
 
-model = LTCMambaNet.Temporal_mamba(args)
+model = SPRMambaNet.SPRMamba(args)
 if args.action == 'train':
     path = ('./' + str(args.action) + '/log/' + 'LAYERS_' +
             str(args.NUM_LAYERS) + '_STAGES_' + str(args.NUM_STAGES) + '_WINDOWED_Mamba_W_' +
