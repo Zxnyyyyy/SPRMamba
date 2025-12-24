@@ -8,6 +8,6 @@ This repository contains the software used in our Paper “SPRMamba: Surgical Ph
   year={2024}
 }
 # License
-This project is released under the 
+This project is released under the [MIT License](https://github.com/Zxnyyyyy/SPRMamba/blob/main/LICENSE)
 # Acknowledgement
 This repository is built based on repository.
