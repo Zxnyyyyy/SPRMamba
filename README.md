@@ -10,7 +10,6 @@ causal-conv1d == 1.4.0, mamba-ssm ==2.2.2, torch == 2.1.2+cu118, python == 3.10.
 - Data Preprocessing
   run preprocessing.py to convert the videos to frames.
 - rename it to "datasets" and put into the current directory
-
 SPRMamba/
 ├── datasets
 │   ├── ESD385
