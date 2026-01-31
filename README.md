@@ -34,11 +34,12 @@ SPRMamba/
 - Run main.py to eval SPRMamba.
 # Citation
 ```bash
-@article{zhang2024sprmamba,
-  title={SPRMamba: Surgical Phase Recognition for Endoscopic Submucosal Dissection with Mamba},
+@article{zhang2026sprmamba,
+  title={SPRMamba: surgical phase recognition for endoscopic submucosal dissection with mamba},
   author={Zhang, Xiangning and Zhang, Qingwei and Chen, Jinnan and Zhou, Chengfeng and Wang, Yaqi and Zhang, Zhengjie and Li, Xiaobo and Qian, Dahong},
-  journal={arXiv preprint arXiv:2409.12108},
-  year={2024}
+  journal={IEEE Sensors Journal},
+  year={2026},
+  publisher={IEEE}
 }
 ```
 # License
